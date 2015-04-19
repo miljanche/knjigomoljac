@@ -1,0 +1,14 @@
+@mixin transparent-color($color:#ffffff,$transparency:0.5){
+	$colorrgb:rgba($color,$transparency);
+	//$color1:'#'+inspect(25.5*$transparency)+inspect($color);
+
+
+	background: -moz-linear-gradient(left,  $colorrgb 0%, $colorrgb 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,$colorrgb), color-stop(100%,$colorrgb));
+	background: -webkit-linear-gradient(left,  $colorrgb 0%,$colorrgb 100%);
+	background: -o-linear-gradient(left,  $colorrgb 0%,$colorrgb 100%);
+	background: -ms-linear-gradient(left,  $colorrgb 0%,$colorrgb 100%);
+	background: linear-gradient(to right,  $colorrgb 0%,$colorrgb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="00ffffff", endColorstr="00ffffff",GradientType=1 );
+
+}

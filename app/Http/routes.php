@@ -17,6 +17,8 @@ Route::get('/', function() {
 
 Route::get('home', 'HomeController@index');
 
+Route::get('proba', 'HomeController@proba');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

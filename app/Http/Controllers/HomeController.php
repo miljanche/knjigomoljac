@@ -1,5 +1,8 @@
 <?php namespace App\Http\Controllers;
 
+use App\Models\utils\TemplateFactory;
+use App\Models\utils;
+
 class HomeController extends Controller {
 
 	/*
@@ -20,7 +23,7 @@ class HomeController extends Controller {
 	 */
 	public function __construct()
 	{
-		$this->middleware('auth');
+		// $this->middleware('auth');
 	}
 
 	/**
@@ -31,6 +34,14 @@ class HomeController extends Controller {
 	public function index()
 	{
 		return view('home');
+	}
+
+	public function proba()
+	{
+		$templateFactory = new TemplateFactory();
+		return $templateFactory->createIndexView();
+		// return "dsaf";
+		// return view('home');
 	}
 
 }

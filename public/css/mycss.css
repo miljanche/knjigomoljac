@@ -1,0 +1,485 @@
+/*meta*/
+.rect-shape{
+	border-radius: 0px;
+}
+
+a{
+	color: #fff;
+	/*font-size: 18px;*/
+}
+
+a:hover{
+	color: #fff;
+}
+
+.headings-gl{
+	/*font-family: 'Lobster', Georgia, Times, serif;*/
+	/*font-family: 'Arvo', Georgia, Times, serif;*/
+	/*font-family: 'Droid Serif', Georgia, Times, serif;*/
+	
+	font-family: 'Georgia', Georgia, Times, serif;
+}
+
+/*body*/
+body{
+/*background-image: url("../images/books4sm.jpg");
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	*/
+
+}
+
+
+
+/* Header */
+header{
+}
+/*.container {
+	padding: 0px;
+}
+
+.container > * {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}*/
+
+
+#logo-holder{
+/*	background-image: url("../images/logow.png");
+	background-size: 240px 120px;
+	background-repeat: no-repeat;
+	
+	min-width: 240px;
+	height: 120px;
+
+	display: inline-block;
+
+	margin-bottom: 0px;*/
+}
+
+#banner-header{
+/*	background-image: url("../images/bannerv.png");
+	background-size: 728px 90px;
+	background-repeat: no-repeat;
+	width: 728px;
+	height: 90px;
+	display: inline-block;
+*/
+	/*margin-right: 20px;*/
+}
+
+
+
+
+
+/* Menu */
+
+/*.navbar-main{
+	border-radius: 0px;
+	margin-top: 0px;
+	border: 0px;
+}*/
+
+/*.nav-main{
+
+}*/
+
+.nav-main > li {
+	/*color: #FFF;*/
+}
+
+.navbar-default .navbar-nav>li>a {
+	/*color: #FFF;
+	font-size: 20px;
+	font-weight: 400;
+	background-color: rgba(22,22,22,0.6);*/
+}
+
+.nav-main > li:hover {
+	/*background-color: rgba(22,22,22,0.2);
+	color: #fff;*/
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	/*color: white;*/
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+	/*background-color: rgba(22,22,22,0.6);
+	color: #FFF;*/
+}
+
+.nav-main .active:hover, .nav-main > li:hover {
+	/*background-color: rgba(22,22,22,0.2);*/
+	/*color: #fff;*/
+}
+
+
+
+#navbar-holder, #navbar-holder>nav{
+	/*background-color: rgba(1,1,1,0.0);*/
+}
+
+/*
+.navbar-toggle{
+	background-color: #FFF;
+}*/
+
+
+/* Search */
+
+/*#advanced-search-button,*/
+/*
+#advanced-search-button>button{
+	background-color: rgba(22,22,22,0.8);
+	color: #fff;
+}
+
+#advanced-search-button>button:hover{
+	background-color: rgba(22,22,22,0.6);
+	color: #fff;
+}
+
+#search-button>button{
+	background-color: rgba(255,255,255,0.8);
+	color: #333;
+}
+
+#search-button>button:hover{
+	background-color: rgba(255,255,255,0.6);
+	color: #333;
+}*/
+
+
+/*#search-form > .form-group >*, #search-form input{
+	height: 50px;
+}*/
+
+#search-form i{
+	/*color: #999;*/
+}
+
+#search-form button{
+	/*width: 150px;*/
+	/*width: 100%;
+	height: 100%;*/
+}
+/*
+#search-form .glyphicon-search{
+	font-size: 35px;
+	margin-right: 10px;
+	margin-top: 8px;
+}*/
+
+#inputSearch{
+	/*height: 50px;*/
+	/*border-radius: 0px;*/
+	/*box-shadow: 0px;*/
+}
+
+
+/*Main content*/
+
+.content-var{
+	/*min-height: 600px;*/
+}
+
+/*#main-content{
+	margin-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+#main-content >.row{
+	width: 100%;
+	margin-left: 0px;
+}*/
+
+.panel-body{
+	/*padding: 0px;*/
+}
+
+/*#main-content >.row > .col-md-4> .panel*/
+/*.panel-list
+{
+	margin-left: 0px;
+	background-color: rgba(22,22,22,0.8);
+
+	border: 0px;
+}*/
+
+.panel-list ul, .panel-list ul>li{
+	/*background-color: rgba(22,22,22,0.0);
+	color: #fff;
+	border-radius: 0px;
+	border: 0px;*/
+}
+
+.panel-list ul{
+	/*width: 100%;*/
+}
+
+.panel-list ul>li{/*
+	border-top: 1px #fff solid;
+	border-bottom: 1px #fff solid;*/
+}
+
+/*#main-content >.row> .col-md-4{
+	padding: 0px;
+	margin: 0px;
+}
+#main-content >.row > .col-md-4 + .col-md-4 .panel{
+	margin-left: 5px;
+	margin-right: 0px;
+}*/
+
+/*.panel > a:hover{
+	text-decoration: none;
+}*/
+
+.panel-heading{
+	/*font-size: 20px;*/
+
+/*	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;*/
+}
+
+.panel-heading:hover{
+	/**/
+	/*text-indent: 10px;*/
+}
+
+.panel-body{
+	/*font-size: 16px;*/
+
+}
+
+.panel-body>ul>a:hover{
+	/*text-decoration: none;*/
+}
+
+.list-group-item{
+/*	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); 
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); 
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); 
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%); 
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 ); */
+
+/*	border: 0px;
+
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;*/
+
+
+	/*color: #FFFFFF;*/
+}
+
+.list-group-item:hover{
+/*	background: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.3) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.3)), color-stop(100%,rgba(255,255,255,0.3)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%); 
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%); 
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#4dffffff',GradientType=0 ); 
+*/
+	/*border-radius: 0px;
+	text-decoration: none;
+	text-indent: 5px;*/
+}
+
+
+
+/* Publication info */
+
+#publication-info {
+	/*background: -moz-linear-gradient(top,  rgba(255,255,255,0.91) 0%, rgba(255,255,255,0.91) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.91)), color-stop(100%,rgba(255,255,255,0.91)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%); 
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%); 
+	backgroudn: linear-gradient(to bottom,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffffff', endColorstr='#e8ffffff',GradientType=0 );
+*/
+}
+
+/*#publication-info h4{
+	margin-top: 15px;
+	font-weight: 500;
+}
+*/
+#publication-info p {
+/*	text-align: justify;*/
+}
+
+/*.characters-listed{
+
+}
+
+.characters-listed>ul{
+	list-style: none;
+	padding-left: 10px;
+}
+
+.characters-listed>ul>li{
+	margin: 5px;
+	font-size: 15px;
+}
+*/
+
+.review-one{
+	/*margin-top: 20px;
+	border-top: 1px solid #BABABA;*/
+}
+
+/*#sort-reviews{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+*/
+/*#review-tabs a{
+	color: #333;
+}
+
+#review-tabs .btn-report{
+	width: 100%;
+	background-color: #FFF;
+	border-radius: 0px;
+	border: 1px #d9534f solid;
+	color: #d9534f;
+	font-size: 16px;
+}
+
+#review-tabs .btn-report:hover{
+	background-color: rgba(255,255,255,0.1);
+}
+*/
+
+#review-holder{
+	/*margin-top: 20px;*/
+}
+
+#add-new-review{
+	/*display: none;*/
+}
+
+/*#btn-add-review{
+	background-color: #EEE;
+	border-radius: 0px;
+	border: 1px #888 solid;
+}
+*/
+/*
+.review-grade{
+	width: 100%;
+	font-size: 60px;
+	color: #2384D9;
+	text-align: center;
+}*/
+
+/*.put-grade{
+	display: inline-block;
+	width: 100%;
+}
+
+.put-grade>span{
+	font-size: 24px;
+	display: inline-block;
+	color: #333;
+}
+
+.put-grade>span:hover{
+	color: #5BB12F;
+}
+*/
+
+/*Lista knjiga*/
+
+/*.book-listed{
+	min-height: 160px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-top: 2px solid #253939;
+
+}*/
+
+/*.book-listed>div>img{
+	margin-top: 5px;
+	height: 160px;
+	max-width: 100%;
+}
+
+.book-listed>div>a>h2{
+	color: #253939;
+}
+
+.book-listed>div>a:hover{
+	text-decoration: none;
+}
+
+.book-listed>div>a>h3{
+	color: #558188;
+	margin-top: 10px;
+}
+
+.book-listed>div>a>h2:hover{
+	color: #3C6E6E;
+}
+
+.book-listed>div>a>h3:hover{
+	color: #334D52;
+}
+
+.book-listed>div>h5{
+	color: #5F6024;
+}*/
+
+
+
+
+/* Unos novog dela/autora */
+.insert-form{
+	/*min-height: 600px;*/
+}
+
+
+/*#insert-new{
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.91) 0%, rgba(255,255,255,0.91) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.91)), color-stop(100%,rgba(255,255,255,0.91)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%); 
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%); 
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.91) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffffff', endColorstr='#e8ffffff',GradientType=0 );
+
+	margin-top: 20px;
+}*/
+
+
+
+/*Profil korisnika */
+
+/*#profile-info{
+
+}
+
+
+#profile-info>img{
+	width: 100%;
+	border: 1px solid #333;
+}
+
+
+#profile-info>h4,#profile-info>h3{
+	width: 100%;
+	text-align: center;
+}*/
